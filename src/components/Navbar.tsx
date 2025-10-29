@@ -76,7 +76,7 @@ const Navbar = () => {
                   className="text-foreground hover:text-green-500 font-medium transition-colors relative group"
                 >
                   {item.label}
-                  <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-primary transition-all duration-300 group-hover:w-full"></span>
+                  <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-green-500 transition-all duration-300 group-hover:w-full"></span>
                 </a>
               ))}
               <Button className="bg-green-500 hover:bg-green-400 text-primary-foreground font-semibold px-6">
