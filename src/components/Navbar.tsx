@@ -63,7 +63,7 @@ const Navbar = () => {
                 </svg>
               </div>
               <span className="text-2xl font-heading font-bold text-foreground">
-                Emarat<span className="text-red-400">Hospital</span>
+                Emarat<span className="text-red-400"> Hospital</span>
               </span>
             </a>
 
