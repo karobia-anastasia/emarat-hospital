@@ -31,14 +31,14 @@ const Hero = () => {
           <div className="flex flex-wrap gap-4 justify-center animate-fade-in" style={{ animationDelay: "0.2s" }}>
             <Button 
               size="lg" 
-              className="bg-green-400 hover:bg-green-400 text-primary-foreground font-semibold text-base px-8 py-6 rounded-lg shadow-lg hover:shadow-xl transition-all"
+              className="bg-green-900 hover:bg-green-800 text-primary-foreground font-semibold text-base px-8 py-6 rounded-lg shadow-lg hover:shadow-xl transition-all"
             >
               Appointment
               <ArrowRight className="ml-2 h-5 w-5" />
             </Button>
             <Button 
               size="lg" 
-              className="bg-gray-300 hover:bg-gray-200 text-accent-foreground font-semibold text-base px-8 py-6 rounded-lg shadow-lg hover:shadow-xl transition-all"
+              className="bg-green-950 hover:bg-green-900 text-accent-foreground font-semibold text-base px-8 py-6 rounded-lg shadow-lg hover:shadow-xl transition-all"
             >
               Contact Us
             </Button>
