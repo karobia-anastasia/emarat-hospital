@@ -18,7 +18,7 @@ const Navbar = () => {
     { label: "Home", href: "#home" },
     { label: "About", href: "#about" },
     { label: "Service", href: "#services" },
-    { label: "Doctors", href: "#doctors" },
+    // { label: "Doctors", href: "#doctors" },
     { label: "Contact", href: "#contact" },
   ];
 
@@ -40,10 +40,7 @@ const Navbar = () => {
                 <Mail className="h-4 w-4" />
                 <span className="hidden md:inline">info@emarat-hospital.co.ke</span>
               </a>
-              <a href="tel:+254700000000" className="flex items-center gap-2 hover:opacity-80 transition-opacity">
-                <Phone className="h-4 w-4" />
-                <span>+254 700 000 000</span>
-              </a>
+       
             </div>
           </div>
         </div>
