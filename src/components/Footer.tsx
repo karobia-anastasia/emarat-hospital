@@ -61,6 +61,8 @@ const Footer = () => {
             <ul className="space-y-3 text-secondary-foreground/80">
               <li>Nairobi Road, Emarat Plaza<br />Nairobi, Kenya</li>
               <li>info@emarat-hospital.co.ke</li>
+              <li>support@emarat-hospital.co.ke</li>
+
               <li className="text-primary font-semibold">24/7 Emergency Service</li>
             </ul>
           </div>
