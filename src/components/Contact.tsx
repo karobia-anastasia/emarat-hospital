@@ -72,22 +72,13 @@ const Contact = () => {
               <div>
                 <h3 className="text-xl font-heading font-bold text-foreground mb-2">Our Address</h3>
                 <p className="text-muted-foreground">
-                  Nairobi Road, Emarat Plaza<br />
+                  Sixth St, <br />
                   Nairobi, Kenya
                 </p>
               </div>
             </div>
 
-            <div className="bg-card border border-border rounded-lg p-8 shadow-lg flex gap-6 hover:shadow-xl transition-shadow">
-              <div className="w-16 h-16 bg-primary/10 rounded-lg flex items-center justify-center flex-shrink-0">
-                <Phone className="h-8 w-8 text-primary" />
-              </div>
-              <div>
-                <h3 className="text-xl font-heading font-bold text-foreground mb-2">Call Us</h3>
-                <p className="text-muted-foreground mb-1">+254 700 000 000</p>
-                <p className="text-muted-foreground">+254 701 000 000</p>
-              </div>
-            </div>
+
 
             <div className="bg-card border border-border rounded-lg p-8 shadow-lg flex gap-6 hover:shadow-xl transition-shadow">
               <div className="w-16 h-16 bg-primary/10 rounded-lg flex items-center justify-center flex-shrink-0">
