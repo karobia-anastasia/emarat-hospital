@@ -12,7 +12,7 @@ const Hero = () => {
           alt="Emarat Hospital - Modern Healthcare Facility in Kenya" 
           className="w-full h-full object-cover"
         />
-                <div className="absolute inset-0 bg-green-950/90"></div>
+                <div className="absolute inset-0 bg-green-950/70"></div>
 
         {/* <div className="absolute inset-0 bg-secondary/90"></div> */}
       </div>
