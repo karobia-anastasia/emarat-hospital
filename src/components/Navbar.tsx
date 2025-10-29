@@ -25,7 +25,7 @@ const Navbar = () => {
   return (
     <>
       {/* Top Bar */}
-      <div className="bg-primary text-primary-foreground py-2">
+      <div className="bg-green-400 text-primary-foreground py-2">
         <div className="container mx-auto px-4">
           <div className="flex flex-wrap items-center justify-between text-sm">
             <div className="flex items-center gap-4">
@@ -56,14 +56,14 @@ const Navbar = () => {
           <div className="flex items-center justify-between h-20">
             {/* Logo */}
             <a href="#home" className="flex items-center gap-2 group">
-              <div className="bg-primary text-primary-foreground p-2.5 rounded-lg group-hover:scale-105 transition-transform">
+              <div className="bg-green-500 text-primary-foreground p-2.5 rounded-lg group-hover:scale-105 transition-transform">
                 <svg className="h-7 w-7" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
                   <path d="M12 2L2 7l10 5 10-5-10-5z" />
                   <path d="M2 17l10 5 10-5M2 12l10 5 10-5" />
                 </svg>
               </div>
               <span className="text-2xl font-heading font-bold text-foreground">
-                Emarat<span className="text-primary">Hospital</span>
+                Emarat<span className="text-red-400">Hospital</span>
               </span>
             </a>
 
@@ -79,7 +79,7 @@ const Navbar = () => {
                   <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-primary transition-all duration-300 group-hover:w-full"></span>
                 </a>
               ))}
-              <Button className="bg-primary hover:bg-primary/90 text-primary-foreground font-semibold px-6">
+              <Button className="bg-green-500 hover:bg-green-400 text-primary-foreground font-semibold px-6">
                 Appointment
               </Button>
             </div>
@@ -108,7 +108,7 @@ const Navbar = () => {
                   {item.label}
                 </a>
               ))}
-              <Button className="bg-primary hover:bg-primary/90 text-primary-foreground font-semibold w-full">
+              <Button className="bg-green-500 hover:bg-green-400 text-primary-foreground font-semibold w-full">
                 Appointment
               </Button>
             </div>

@@ -8,7 +8,7 @@ const Contact = () => {
     <section id="contact" className="py-24 bg-background">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <p className="text-primary font-semibold text-lg uppercase tracking-wider mb-3">
+          <p className="text-green-500 font-semibold text-lg uppercase tracking-wider mb-3">
             Contact Us
           </p>
           <h2 className="text-4xl md:text-5xl font-heading font-bold text-foreground mb-4">
@@ -55,7 +55,7 @@ const Contact = () => {
                   />
                 </div>
                 <Button 
-                  className="bg-primary hover:bg-primary/90 text-primary-foreground font-semibold w-full h-12 rounded-lg"
+                  className="bg-green-500 hover:bg-green-400 text-green-500-foreground font-semibold w-full h-12 rounded-lg"
                 >
                   Send Message
                 </Button>
@@ -66,8 +66,8 @@ const Contact = () => {
           {/* Contact Info */}
           <div className="space-y-8">
             <div className="bg-card border border-border rounded-lg p-8 shadow-lg flex gap-6 hover:shadow-xl transition-shadow">
-              <div className="w-16 h-16 bg-primary/10 rounded-lg flex items-center justify-center flex-shrink-0">
-                <MapPin className="h-8 w-8 text-primary" />
+              <div className="w-16 h-16 bg-green-400 rounded-lg flex items-center justify-center flex-shrink-0">
+                <MapPin className="h-8 w-8 text-white" />
               </div>
               <div>
                 <h3 className="text-xl font-heading font-bold text-foreground mb-2">Our Address</h3>
@@ -81,8 +81,8 @@ const Contact = () => {
 
 
             <div className="bg-card border border-border rounded-lg p-8 shadow-lg flex gap-6 hover:shadow-xl transition-shadow">
-              <div className="w-16 h-16 bg-primary/10 rounded-lg flex items-center justify-center flex-shrink-0">
-                <Mail className="h-8 w-8 text-primary" />
+              <div className="w-16 h-16 bg-green-400 rounded-lg flex items-center justify-center flex-shrink-0">
+                <Mail className="h-8 w-8 text-white" />
               </div>
               <div>
                 <h3 className="text-xl font-heading font-bold text-foreground mb-2">Email Us</h3>
@@ -92,8 +92,8 @@ const Contact = () => {
             </div>
 
             <div className="bg-card border border-border rounded-lg p-8 shadow-lg flex gap-6 hover:shadow-xl transition-shadow">
-              <div className="w-16 h-16 bg-primary/10 rounded-lg flex items-center justify-center flex-shrink-0">
-                <Clock className="h-8 w-8 text-primary" />
+              <div className=" w-16 h-16 bg-green-400 rounded-lg flex items-center justify-center flex-shrink-0">
+                <Clock className="h-8 w-8 text-white" />
               </div>
               <div>
                 <h3 className="text-xl font-heading font-bold text-foreground mb-2">Working Hours</h3>

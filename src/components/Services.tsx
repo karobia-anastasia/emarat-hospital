@@ -49,7 +49,7 @@ const Services = () => {
     <section id="services" className="py-24 bg-muted/30">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <p className="text-primary font-semibold text-lg uppercase tracking-wider mb-3">
+          <p className="text-green-500 font-semibold text-lg uppercase tracking-wider mb-3">
             Our Services
           </p>
           <h2 className="text-4xl md:text-5xl font-heading font-bold text-foreground mb-4">
@@ -67,10 +67,10 @@ const Services = () => {
               className="group hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 border-border bg-card cursor-pointer overflow-hidden"
             >
               <CardContent className="p-8 text-center">
-                <div className="w-20 h-20 bg-primary/10 rounded-full flex items-center justify-center mb-6 group-hover:bg-primary transition-colors duration-300 mx-auto">
-                  <service.icon className="h-10 w-10 text-primary group-hover:text-white transition-colors duration-300" />
+                <div className="w-20 h-20 bg-primary/10 rounded-full flex items-center justify-center mb-6 group-hover:bg-green-500 transition-colors duration-300 mx-auto">
+                  <service.icon className="h-10 w-10 text-green-500 group-hover:text-white transition-colors duration-300" />
                 </div>
-                <h3 className="text-xl font-heading font-bold text-foreground mb-4 group-hover:text-primary transition-colors">
+                <h3 className="text-xl font-heading font-bold text-foreground mb-4 group-hover:text-green-500 transition-colors">
                   {service.title}
                 </h3>
                 <p className="text-muted-foreground leading-relaxed">

@@ -2,33 +2,33 @@ import { Facebook, Twitter, Instagram, Linkedin } from "lucide-react";
 
 const Footer = () => {
   return (
-    <footer className="bg-secondary text-secondary-foreground">
+    <footer className="bg-green-900 text-secondary-foreground">
       <div className="container mx-auto px-4 py-12">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
           <div>
             <div className="flex items-center gap-2 mb-4">
-              <div className="bg-primary text-primary-foreground p-2 rounded-lg">
+              <div className="bg-green-500 text-green-500-foreground p-2 rounded-lg">
                 <svg className="h-6 w-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                   <path d="M12 2L2 7l10 5 10-5-10-5z" />
                   <path d="M2 17l10 5 10-5M2 12l10 5 10-5" />
                 </svg>
               </div>
-              <span className="text-lg font-heading font-bold">Emarat Hospital</span>
+              <span className="text-black text-lg font-heading font-bold">Emarat <span className="text-red-500">Hospital</span></span>
             </div>
             <p className="text-secondary-foreground/80 mb-4">
               Providing quality healthcare services to the community with compassion and excellence.
             </p>
             <div className="flex gap-3">
-              <a href="#" className="w-10 h-10 bg-white/10 rounded-lg flex items-center justify-center hover:bg-primary transition-colors">
+              <a href="#" className="w-10 h-10 bg-white/10 rounded-lg flex items-center justify-center hover:bg-green-500 transition-colors">
                 <Facebook className="h-5 w-5" />
               </a>
-              <a href="#" className="w-10 h-10 bg-white/10 rounded-lg flex items-center justify-center hover:bg-primary transition-colors">
+              <a href="#" className="w-10 h-10 bg-white/10 rounded-lg flex items-center justify-center hover:bg-green-500 transition-colors">
                 <Twitter className="h-5 w-5" />
               </a>
-              <a href="#" className="w-10 h-10 bg-white/10 rounded-lg flex items-center justify-center hover:bg-primary transition-colors">
+              <a href="#" className="w-10 h-10 bg-white/10 rounded-lg flex items-center justify-center hover:bg-green-500 transition-colors">
                 <Instagram className="h-5 w-5" />
               </a>
-              <a href="#" className="w-10 h-10 bg-white/10 rounded-lg flex items-center justify-center hover:bg-primary transition-colors">
+              <a href="#" className="w-10 h-10 bg-white/10 rounded-lg flex items-center justify-center hover:bg-green-500 transition-colors">
                 <Linkedin className="h-5 w-5" />
               </a>
             </div>
@@ -37,11 +37,11 @@ const Footer = () => {
           <div>
             <h3 className="font-heading font-bold text-lg mb-4">Quick Links</h3>
             <ul className="space-y-2">
-              <li><a href="#home" className="text-secondary-foreground/80 hover:text-primary transition-colors">Home</a></li>
-              <li><a href="#services" className="text-secondary-foreground/80 hover:text-primary transition-colors">Services</a></li>
-              <li><a href="#about" className="text-secondary-foreground/80 hover:text-primary transition-colors">About Us</a></li>
-              <li><a href="#doctors" className="text-secondary-foreground/80 hover:text-primary transition-colors">Our Doctors</a></li>
-              <li><a href="#contact" className="text-secondary-foreground/80 hover:text-primary transition-colors">Contact</a></li>
+              <li><a href="#home" className="text-secondary-foreground/80 hover:text-green-500 transition-colors">Home</a></li>
+              <li><a href="#services" className="text-secondary-foreground/80 hover:text-green-500 transition-colors">Services</a></li>
+              <li><a href="#about" className="text-secondary-foreground/80 hover:text-green-500 transition-colors">About Us</a></li>
+              <li><a href="#doctors" className="text-secondary-foreground/80 hover:text-green-500 transition-colors">Our Doctors</a></li>
+              <li><a href="#contact" className="text-secondary-foreground/80 hover:text-green-500 transition-colors">Contact</a></li>
             </ul>
           </div>
 
@@ -63,7 +63,7 @@ const Footer = () => {
               <li>info@emarat-hospital.co.ke</li>
               <li>support@emarat-hospital.co.ke</li>
 
-              <li className="text-primary font-semibold">24/7 Emergency Service</li>
+              <li className="text-green-500 font-semibold">24/7 Emergency Service</li>
             </ul>
           </div>
         </div>

@@ -7,8 +7,8 @@ const About = () => {
       <div className="container mx-auto px-4">
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           <div>
-            <p className="text-primary font-semibold text-lg uppercase tracking-wider mb-3">
-              About Emarat Hospital
+            <p className="text-green-500 font-semibold text-lg uppercase tracking-wider mb-3">
+              About <span className="text-black">Emarat</span> <span className="text-red-500">Hospital</span>
             </p>
             <h2 className="text-4xl md:text-5xl font-heading font-bold text-foreground mb-6">
               Leading Healthcare Provider in Kenya
@@ -33,7 +33,7 @@ const About = () => {
                 "Patient-friendly environment"
               ].map((item, index) => (
                 <div key={index} className="flex items-center gap-3">
-                  <CheckCircle2 className="h-6 w-6 text-primary flex-shrink-0" />
+                  <CheckCircle2 className="h-6 w-6 text-green-500 flex-shrink-0" />
                   <span className="text-foreground font-medium">{item}</span>
                 </div>
               ))}
@@ -41,7 +41,7 @@ const About = () => {
 
             <Button 
               size="lg" 
-              className="bg-primary hover:bg-primary/90 text-primary-foreground font-semibold px-8 rounded-lg"
+              className="bg-green-500 hover:bg-green-400 text-green-500-foreground font-semibold px-8 rounded-lg"
             >
               Learn More About Us
             </Button>
@@ -60,7 +60,7 @@ const About = () => {
             <div className="absolute -bottom-8 -left-8 bg-white rounded-xl shadow-xl p-6 border border-border">
               <div className="flex items-center gap-4">
                 <div className="bg-primary/10 p-4 rounded-lg">
-                  <svg className="h-8 w-8 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <svg className="h-8 w-8 text-green-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                   </svg>
                 </div>
